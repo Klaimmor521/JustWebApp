@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
             <body>
                 <h1>Студент: Арсланова Амина</h1>
                 <h2>Группа: РПО-1</h2>
-                <h3>Предмет: Облачные технологии и использование Microsoft Azure при разработке приложений (а на самом деле Yandex Cloud и Codespaces)</h3>
+                <h3>Предмет: Облачные технологии и использование Microsoft Azure при разработке приложений (на самом деле Yandex Cloud и Codespaces)</h3>
                 <br>
                 <a href="/time">Посмотреть серверное время</a>
             </body>
@@ -38,5 +38,5 @@ app.get('/time', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Приложение запущено на порту ${port}`);
+    console.log(`Приложение запущено https://localhost:${port}`);
 });
